@@ -1,0 +1,662 @@
+{
+  "intents": [
+    {
+     "tag": "greeting",
+     "patterns": [
+    "Hi",
+    "Hey",
+    "How are you",
+    "Is anyone there?",
+    "Hello",
+    "Good day",
+    "Greetings",
+    "What's up",
+    "Howdy"
+     ],
+     "responses": [
+    "Hey there! How can I assist you today?",
+    "Hello! What can I help you with?",
+    "Hi there, what brings you here today?",
+    "Hello, it's good to see you. How can I be of service?",
+    "Greetings! How may I assist you?",
+    "Hey, how's it going? What do you need help with?",
+    "Howdy! How can I be of assistance?",
+    "Hey, what's up? How can I help you today?",
+    "Hi! Is there something specific you need help with?"
+  ]
+}
+,
+     {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Glad to help!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "play",
+      "patterns": [
+        "Play something",
+        "Play a song",
+        "I want to listen to music",
+        "Can you play something for me",
+        "Can you play music"
+      ],
+      "responses": [
+        "Sure, here's something for you",
+        "Let me find something for you",
+        "Here's a song for you",
+        "Enjoy this one"
+      ]
+    },
+    {
+  "tag": "weather",
+  "patterns": [
+    "What's the weather like today?",
+    "Tell me the weather forecast",
+    "What's the weather forecast for tomorrow?",
+    "Is it going to rain today?",
+    "How's the weather"
+  ],
+  "responses": [
+    "Here's the weather forecast for you",
+    "Let me check the weather for you"
+  ]
+   },
+    {
+  "tag": "search",
+  "patterns": [
+    "search",
+    "Search {query}",
+    "Find information about {query}",
+    "Look up {query}",
+    "Search {query} on the internet"
+  ],
+  "responses": [
+    "Let me find some results for {query}",
+    "Searching for {query}...",
+    "Here are some search results for {query}",
+    "I found the following information about {query}"
+  ]
+},
+
+    {
+  "tag": "emergency",
+  "patterns": [
+    "Help!",
+    "Emergency!",
+    "I need help!",
+    "Call emergency services",
+    "I'm in danger"
+  ],
+  "responses": [
+    "I'm here to help. Let me open WhatsApp to connect you with emergency services."
+  ]
+},
+
+
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "What's the time",
+        "Tell me the time"
+      ],
+      "responses": [
+        "Current time is [Time]"
+      ]
+    },
+    {
+    "tag": "whois",
+    "patterns": [
+        "who is",
+        "what is"
+    ],
+    "responses": [
+        "let me look that up for you",
+      "let me search it up"
+
+    ]
+},
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "What do I call you?",
+        "Do you have a name?",
+        "Name?",
+        "Who are you?"
+      ],
+      "responses": [
+        "My name is Max. How can I assist you today?",
+        "You can call me Max. What can I help you with?",
+        "My name is Max. Is there anything you need assistance with?",
+        "I'm Max. What can I help you with?",
+        "Call me Max. How can I be of service?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+  "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye",
+    "I have to go",
+    "It's time for me to leave",
+    "I'll talk to you later",
+    "Take care"
+  ],
+  "responses": [
+    "Goodbye! Have a great day.",
+    "Take care, see you soon.",
+    "Until next time!",
+    "Bye bye!",
+    "Adios amigo!",
+    "See you later, alligator!",
+    "Peace out!"
+  ]
+    }
+
+,
+    {
+    "tag": "day",
+    "patterns": [
+        "what day is today",
+        "what is the date today",
+        "what day is it",
+        "tell me the day"
+    ],
+    "responses": [
+        "Today is {day}.",
+        "It's {day} today.",
+        "The date today is {day}.",
+        "Today is {day}, have a great day!"
+    ]
+},
+
+
+    {
+      "tag": "features",
+      "patterns": [
+        "what can you do?",
+        "what are you capable of ?",
+        "what are your features",
+        "what are your functions"
+      ],
+      "responses": [
+        "i can do lots of things , including assisting you and maybe talk to you",
+        "i can assist you, talk to you, play music for you, find information for you, answer questions for you "
+      ]
+    },
+    {
+  "tag": "headache",
+  "patterns": [
+    "I have a headache",
+    "I'm having a headache",
+    "My head hurts",
+    "My head is throbbing",
+    "I have a migraine",
+    "I feel like my head is on fire",
+    "I woke up with a headache",
+    "I've been experiencing frequent headaches lately",
+    "My headache is getting worse",
+    "I get headaches when I'm stressed",
+    "I feel pressure in my temples",
+    "I have a pounding headache",
+    "I feel nauseous along with my headache",
+    "I'm sensitive to light and sound due to my headache",
+    "My headache is affecting my concentration",
+    "I've tried various remedies, but my headache won't go away",
+    "My headaches usually last for hours",
+    "I've had this headache for several days",
+    "I've noticed triggers that cause my headaches, like certain foods or smells"
+  ],
+  "responses": [
+    "I'm sorry to hear that. Have you tried drinking water and resting for a bit?",
+    "Headaches can be tough. Try taking some deep breaths and taking a short break.",
+    "One of the best ways to deal with a headache is to take a break and relax. Try closing your eyes and taking some deep breaths.",
+    "A warm compress on the forehead can help relieve headache pain. Have you tried that?",
+    "Sometimes a little bit of caffeine can help with headaches. Have you tried drinking some coffee or tea?",
+    "If your headache persists, it might be a good idea to see a doctor. They can help you figure out the best way to manage your headaches.",
+    "Taking some over-the-counter pain medication like ibuprofen or acetaminophen can help relieve headache pain. Just be sure to follow the recommended dosage."
+  ]
+}
+
+,
+    {
+  "tag": "stomachache",
+  "patterns": [
+    "I have a stomachache",
+    "My stomach hurts",
+    "I'm experiencing abdominal pain",
+    "I feel nauseous",
+    "I have indigestion",
+    "I ate something that doesn't agree with me",
+    "What can I do for a stomachache?",
+    "How can I relieve stomach pain?"
+  ],
+  "responses": [
+    "I'm sorry to hear that you're experiencing a stomachache. Have you tried drinking ginger tea or taking over-the-counter antacids?",
+    "Stomachaches can be uncomfortable. You may find relief by applying a warm compress to your stomach or trying relaxation techniques like deep breathing.",
+    "One way to relieve stomach pain is to avoid eating solid foods for a while and sticking to a bland diet until you feel better. It can also help to drink peppermint tea or take over-the-counter medications like simethicone for gas relief.",
+    "If your stomachache is accompanied by diarrhea, it's important to stay hydrated by drinking plenty of fluids. You can also try eating small, frequent meals of easily digestible foods like rice, bananas, or toast.",
+    "Sometimes, a stomachache can be a result of overeating or eating too quickly. Taking a break from eating and giving your stomach time to digest may alleviate the discomfort.",
+    "If your stomachache persists or worsens, it's advisable to consult a healthcare professional for further evaluation and guidance.",
+    "Avoiding spicy, greasy, or fatty foods can help prevent stomachaches. It's also essential to practice good eating habits, such as eating smaller portions and chewing food thoroughly.",
+    "If your stomachache is severe, accompanied by persistent vomiting, blood in the stool, or severe abdominal pain, it's crucial to seek immediate medical attention as it could be a sign of a more serious condition."
+  ]
+}
+
+    ,
+
+{
+  "tag": "heart attack symptoms",
+  "patterns": [
+    "symptoms of heart attack",
+    "signs of heart attack",
+    "heart attack symptoms",
+    "heart attack signs",
+    "chest pain",
+    "pain in chest",
+    "chest discomfort",
+    "left arm pain",
+    "left side chest pain",
+    "angina pain"
+  ],
+  "responses": [
+    "The symptoms of a heart attack can include chest pain or discomfort, shortness of breath, nausea or vomiting, light headedness, or discomfort or pain in the arms, back, neck, or jaw. If you experience any of these symptoms, call emergency services immediately and seek medical attention.",
+    "Heart attack symptoms can vary, but they may include chest pain, discomfort or pressure that may last several minutes, or come and go. Other possible symptoms include shortness of breath, sweating, nausea or vomiting, light headedness or fainting, and discomfort or pain in the arms, back, neck, or jaw. If you suspect someone is having a heart attack, call emergency services immediately and seek medical attention.",
+    "Heart attack symptoms can include chest pain, shortness of breath, nausea or vomiting, light headedness or fainting, and discomfort or pain in the arms, back, neck, or jaw. If you are experiencing these symptoms, seek emergency medical attention right away.",
+    "A heart attack may feel like pressure, squeezing, fullness, or pain in the center or left side of the chest that may spread to the arms, neck, jaw, or back. Other possible symptoms may include shortness of breath, nausea or vomiting, light headedness or fainting, and discomfort or pain in the arms, back, neck, or jaw. If you think you may be having a heart attack, call emergency services right away and seek medical attention.",
+    "It is possible to have a heart attack without chest pain, although chest pain or discomfort is a common symptom. Other possible symptoms may include shortness of breath, nausea or vomiting, light headedness or fainting, and discomfort or pain in the arms, back, neck, or jaw. If you suspect someone is having a heart attack, call emergency services immediately and seek medical attention.",
+    "Chest pain may not always be a sign of a heart attack, but it is one possible symptom. Other possible symptoms may include shortness of breath, nausea or vomiting, light headedness or fainting, and discomfort or pain in the arms, back, neck, or jaw. If you think you may be having a heart attack, call emergency services right away and seek medical attention.",
+    "Heart attack symptoms can come and go, or they may be constant. If you are experiencing any symptoms of a heart attack, seek emergency medical attention right away. If you suspect someone is having a heart attack, call emergency services immediately and seek medical attention.",
+    "Angina pain is a type of chest pain that occurs when the heart doesn't get enough blood flow and oxygen. It may feel like pressure or squeezing in the chest. The signs of a heart attack include chest pain, discomfort or pressure, shortness of breath, sweating, nausea, light headedness, and pain in the arms, back, neck, or jaw. If you suspect someone is having a heart attack, call emergency services immediately and do not give them anything to eat or drink. Seek medical attention right away."
+  ]
+},
+{
+"tag": "heart attack inquiry",
+"patterns": [
+"What should I do if I think I'm having a heart attack?",
+"How can I recognize the symptoms of a heart attack?",
+"What are the signs of a heart attack?",
+"Is chest pain always a symptom of a heart attack?",
+"What should I do if someone is having a heart attack?",
+"What is angina pain?",
+"What are the common symptoms of angina?",
+"When should I call emergency services for a possible heart attack?"
+],
+"responses": [
+"If you think you're having a heart attack, it's important to call emergency services immediately. Time is critical in treating a heart attack. While waiting for help, you can try to stay calm, rest, and take aspirin if it's available and you're not allergic. Avoid exertion or anything that could worsen your condition.",
+"The symptoms of a heart attack can vary, but common signs include chest pain or discomfort, shortness of breath, nausea or vomiting, light headedness, and pain or discomfort in the arms, back, neck, or jaw. If you experience any of these symptoms, it's crucial to seek medical attention immediately.",
+"Signs of a heart attack may include chest pain or discomfort, shortness of breath, nausea or vomiting, light headedness, and pain or discomfort in the arms, back, neck, or jaw. It's important not to ignore these symptoms and to seek medical help promptly.",
+"While chest pain can be a symptom of a heart attack, not all chest pain indicates a heart problem. However, if you experience chest pain or discomfort along with other symptoms such as shortness of breath, nausea, or pain radiating to the arms, back, neck, or jaw, it's best to err on the side of caution and seek medical attention.",
+"If you believe someone is having a heart attack, call emergency services immediately. While waiting for help to arrive, have the person rest in a comfortable position, keep them calm, and encourage them not to exert themselves. Do not give them anything to eat or drink unless advised by a medical professional.",
+"Angina pain is a type of chest pain or discomfort that occurs when the heart muscle doesn't receive enough blood flow and oxygen. It can feel like pressure, tightness, squeezing, or burning in the chest. Angina pain is often triggered by physical exertion or emotional stress and typically subsides with rest or medication.",
+"Common symptoms of angina include chest pain or discomfort, pressure or squeezing in the chest, shortness of breath, fatigue, dizziness, and pain radiating to the arms, neck, jaw, or back. If you experience these symptoms, it's important to consult a healthcare professional for proper diagnosis and management.",
+"If you suspect a heart attack, it's crucial to call emergency services immediately, even if you're not entirely sure. It's better to be safe than sorry. Emergency services can assess the situation, provide guidance, and arrange for prompt medical attention if necessary."
+]
+}
+
+,
+
+
+
+
+{
+  "tag": "high_blood_pressure",
+  "patterns": [
+    "What are the symptoms of high blood pressure?",
+    "How can I tell if I have high blood pressure?",
+    "What are the signs of high blood pressure?",
+    "Can high blood pressure have symptoms?",
+    "I think I might have high blood pressure",
+    "What are some common signs of high blood pressure?",
+    "What does high blood pressure feel like?",
+    "Dizziness",
+    "Shortness of breath",
+    "Nosebleeds",
+    "High blood pressure"
+  ],
+  "responses": [
+    "Some common symptoms of high blood pressure include headaches, dizziness, shortness of breath, and nosebleeds.",
+    "High blood pressure is often called the 'silent killer' because it doesn't usually cause any symptoms. However, some people may experience headaches, dizziness, shortness of breath, and nosebleeds.",
+    "High blood pressure often has no symptoms, but it can cause damage to your heart, brain, kidneys, and other organs over time. If you have concerns about your blood pressure, it's important to get it checked by a doctor.",
+    "Symptoms of high blood pressure can be subtle or non-existent. However, some people with high blood pressure may experience headaches, dizziness, shortness of breath, and nosebleeds.",
+    "If left untreated, high blood pressure can lead to serious health problems like heart disease and stroke.",
+    "Making lifestyle changes like exercising regularly, eating a healthy diet, and reducing stress can help lower your blood pressure.",
+    "It's important to monitor your blood pressure regularly, especially if you have a family history of high blood pressure or other risk factors.",
+    "If you think you have high blood pressure, or if you're at risk for it, talk to your doctor about getting your blood pressure checked and developing a plan to manage it."
+  ]
+},
+    {
+      "tag": "low_blood_pressure",
+      "patterns": [
+        "What are the symptoms of low blood pressure?",
+        "How can I tell if I have low blood pressure?",
+        "What are the signs of low blood pressure?",
+        "Can low blood pressure have symptoms?",
+        "I think I might have low blood pressure",
+        "What are some common signs of low blood pressure?",
+        "What does low blood pressure feel like?",
+        "Fainting",
+        "Fatigue",
+        "Low blood pressure"
+      ],
+      "responses": [
+        "Some common symptoms of low blood pressure include dizziness, fainting, fatigue, and blurred vision.",
+        "Low blood pressure can cause symptoms such as dizziness, fainting, fatigue, and blurry vision.",
+        "If you have low blood pressure, you may experience symptoms like dizziness, fainting, fatigue, and blurred vision.",
+        "Symptoms of low blood pressure can vary, but they may include dizziness, fainting, fatigue, and blurry vision.",
+        "Low blood pressure can be caused by various factors, such as dehydration, medications, or underlying medical conditions. If you're concerned about your blood pressure, it's advisable to consult with a healthcare professional.",
+        "To manage low blood pressure, it's important to stay hydrated, avoid standing up too quickly, and eat small, frequent meals. If you have persistent low blood pressure symptoms, it's recommended to seek medical advice.",
+        "If you think you have low blood pressure, it's important to consult a healthcare professional for an accurate diagnosis and appropriate management strategies"
+      ]
+    }
+,
+
+
+{
+  "tag": "hiccups",
+  "patterns": [
+    "I have hiccups",
+    "hiccups",
+    "i got hiccups",
+    "What causes hiccups?",
+    "Why do I get hiccups?",
+    "What can trigger hiccups?",
+    "How do I stop hiccups?",
+    "How long do hiccups last?",
+    "Are hiccups contagious?",
+    "Can hiccups be a sign of something serious?",
+    "What are some unusual remedies for hiccups?",
+    "Do hiccups have any health benefits?",
+    "Can hiccups be prevented?",
+    "How do hiccups affect the body?",
+    "What should I do if my hiccups won't go away?"
+  ],
+  "responses": [
+    "Hiccups are caused by sudden, involuntary contractions of the diaphragm muscle. They are usually harmless and go away on their own, but can be caused by a variety of factors including eating or drinking too quickly, swallowing air, sudden changes in temperature, strong emotions, or certain medications. If hiccups persist for more than 48 hours or occur with severe abdominal pain, difficulty swallowing, or vomiting, you should see a doctor as these could be signs of an underlying medical condition such as gastroesophageal reflux disease (GERD), pneumonia, or neurological disorders. While hiccups are generally considered a nuisance, some studies have suggested that they may have health benefits such as reducing the risk of heart attack or stroke." ]
+}
+
+,
+{
+  "tag": "malignancy",
+  "patterns": [
+    "lump on my",
+    "dark spot",
+    "skin lump",
+    "lump",
+    "I have a lump on my neck",
+    "I noticed a dark spot on my skin",
+    "There's a lump on my body",
+    "I found a lump under my skin"
+  ],
+   "responses": [
+    "There are many causes of lumps in the body. The most common lumps or swellings are enlarged lymph nodes. These can be caused by bacterial or viral infections, cancer (malignancy), or other rare causes. Swollen salivary glands under the jaw may be caused by infection or cancer. If you have concerns about a lump on your body, it's important to get it checked by a doctor."
+  ]
+}
+
+
+,{
+
+  "tag": "suicide",
+  "patterns": [
+    "I want to take my own life",
+    "I am thinking about suicide",
+    "How can I end my life?",
+    "I'm feeling so hopeless, I can't go on",
+    "I don't want to live anymore",
+    "I feel like life is not worth living",
+    "I'm tired of living",
+    "Is suicide the only way out?",
+    "I'm in a dark place and I don't know how to get out",
+    "What's the point of living?"
+
+  ],
+  "responses": [
+   "I'm sorry to hear that you're feeling this way. Please know that you don't have to go through this alone. It's important to seek help from a medical professional. Have you considered reaching out to a therapist or doctor?",
+   "I hear you and I understand that you're in pain. There are resources available to help you. I recommend contacting a suicide prevention hotline immediately or seeking medical attention.",
+   "It takes a lot of courage to reach out for help. You are not alone and there are people who care about you. Please consider seeking help from a medical professional or contacting a suicide prevention hotline.",
+   "Please don't give up. You are valued and loved. Reach out for help from a medical professional or suicide prevention hotline.",
+   "I'm here for you and I care about your well-being. Please consider seeking help from a therapist or doctor to discuss your feelings and thoughts.",
+   "Suicide is not the only way out. There are other options available. Please consider reaching out to a loved one, a therapist, or a suicide prevention hotline.",
+   "Remember that things can get better. You are not alone in your struggle. Please seek help from a medical professional or contact a suicide prevention hotline.",
+   "It's important to take care of yourself during this difficult time. Consider reaching out to a therapist or doctor for support.",
+   "Please remember that you are not alone. There are people who care about you and want to help. Don't hesitate to reach out to a medical professional or suicide prevention hotline.",
+   "You are not alone in feeling this way. It's important to seek help from a therapist or doctor. They can help you navigate your feelings and find hope for the future."
+]
+},
+    {
+  "tag": "depression",
+  "patterns": [
+    "I feel depressed",
+    "I'm struggling with depression",
+    "What are the signs of depression?",
+    "How can I cope with depression?",
+    "I think I might have depression",
+    "I'm feeling hopeless and empty",
+    "How can I get help for depression?",
+    "Is there a way to overcome depression?",
+    "I'm experiencing a loss of interest in activities",
+    "I'm constantly tired and have no energy"
+  ],
+  "responses": [
+    "I'm sorry to hear that you're feeling this way. Depression is a serious condition, but it's treatable. It's important to seek help from a mental health professional who can provide you with the necessary support and guidance.",
+    "You're not alone in your struggle with depression. Many people have found relief through therapy, medication, or a combination of both. I encourage you to reach out to a mental health professional for an evaluation and appropriate treatment options.",
+    "It's brave of you to acknowledge your feelings and reach out for help. Depression can be challenging, but there is hope for recovery. Consider talking to a therapist or psychiatrist who can help you develop an effective treatment plan.",
+    "Reaching out for support is an important step in managing depression. A mental health professional can provide you with coping strategies, support, and, if needed, prescribe medication. Remember, you don't have to face this alone.",
+    "Depression can make you feel isolated, but please know that there is support available. Consider reaching out to a mental health professional who can guide you through your journey of healing and recovery.",
+    "Taking the first step to seek help for depression is commendable. Remember that professional assistance is crucial in managing depression effectively. I encourage you to schedule an appointment with a mental health professional as soon as possible.",
+    "It's important to prioritize your mental health and seek professional help for depression. A qualified therapist or psychiatrist can provide you with the necessary tools and support to navigate through this challenging time.",
+    "Depression is a serious condition, but there are effective treatments available. I encourage you to reach out to a mental health professional who can help you develop a personalized plan for managing and overcoming depression.",
+    "You deserve support and care for your mental well-being. Consider seeking help from a mental health professional who can provide you with the necessary guidance and treatment options for your depression.",
+    "You don't have to face depression alone. There are people who can help you through this. I strongly recommend reaching out to a mental health professional who can provide you with the support and resources you need."
+  ]
+},
+{
+  "tag": "anxiety",
+  "patterns": [
+    "I'm feeling anxious",
+    "I have anxiety",
+    "How can I manage my anxiety?",
+    "What are the signs of anxiety?",
+    "I think I might have an anxiety disorder",
+    "I'm constantly worrying",
+    "What does anxiety feel like?",
+    "How can I calm my anxiety?",
+    "I feel restless and on edge",
+    "I have panic attacks"
+  ],
+  "responses": [
+    "I'm sorry to hear that you're feeling anxious. It can be overwhelming, but there are ways to manage it. Consider reaching out to a mental health professional for guidance and support.",
+    "You're not alone in dealing with anxiety. Many people find relief through therapy, medication, or self-help techniques. I encourage you to seek help from a mental health professional who can assist you in managing your anxiety.",
+    "Anxiety can be challenging, but there are effective treatments available. Consider reaching out to a therapist who specializes in anxiety disorders. They can provide you with strategies to manage your anxiety.",
+    "Managing anxiety is important for your well-being. I suggest exploring relaxation techniques such as deep breathing, practicing mindfulness, and engaging in regular physical exercise. It can also be helpful to talk to a therapist about your anxiety.",
+    "Anxiety can manifest in various ways, including feelings of restlessness, excessive worry, and panic attacks. It's important to seek support from a mental health professional who can provide you with coping strategies and support.",
+    "Taking care of your mental health is crucial, especially when dealing with anxiety. Consider reaching out to a mental health professional who can help you develop coping mechanisms and provide guidance tailored to your specific needs.",
+    "You don't have to face anxiety alone. Many resources and strategies are available to help you manage your anxiety. I encourage you to reach out to a mental health professional who can provide support and assist you in finding effective treatment options.",
+    "Coping with anxiety can be challenging, but it's important to remember that there are tools and techniques that can help. Consider seeking help from a therapist who can provide you with strategies to manage and reduce anxiety.",
+    "It's important to prioritize self-care when dealing with anxiety. Engaging in activities that bring you joy, practicing relaxation techniques, and seeking support from a mental health professional can make a significant difference in managing your anxiety.",
+    "Anxiety can feel overwhelming, but there are effective treatments and coping strategies available. I suggest reaching out to a mental health professional who can provide guidance and support tailored to your specific needs."
+  ]
+}
+
+,
+    {
+  "tag": "dry_eyes",
+  "patterns": [
+    "How can I treat dry eyes?",
+    "What are the symptoms of dry eyes?",
+    "What causes dry eyes?",
+    "How can I prevent dry eyes?"
+  ],
+  "responses": [
+    "Symptoms of dry eyes include a burning, stinging, or scratchy sensation, blurred vision, and eye fatigue. To treat dry eyes, use artificial tears, avoid air conditioning or fans, take breaks from screen time, and increase humidity in your environment. To prevent dry eyes, avoid irritants like smoke, dust, and wind, and use a humidifier in your home."
+  ]
+}
+,
+    {
+  "tag": "pink_eye",
+  "patterns": [
+    "pink eye",
+    "What are the symptoms of pink eye?",
+    "How can I treat pink eye?",
+    "Is pink eye contagious?",
+    "How can I prevent pink eye?"
+  ],
+  "responses": [
+    "Symptoms of pink eye include redness, itching, swelling, and discharge from the eye. Treatment options include using artificial tears, applying warm or cold compresses, and using antibiotic eye drops or ointments. Pink eye is contagious and can spread from person to person through contact with contaminated hands or objects. To prevent pink eye, wash your hands frequently, avoid touching your eyes, and don't share towels or washcloths."
+  ]
+},
+    {
+  "tag": "cataracts",
+  "patterns": [
+    "What are cataracts?",
+    "What are the symptoms of cataracts?",
+    "How are cataracts treated?",
+    "How can I prevent cataracts?"
+  ],
+  "responses": [
+    "Cataracts are a clouding of the eye's lens that can cause vision loss. Symptoms include blurry vision, decreased color perception, and difficulty seeing at night. Treatment options include surgery to remove the cloudy lens and replace it with an artificial one. To prevent cataracts, wear sunglasses to protect your eyes from UV rays, quit smoking, eat a healthy diet, and manage any underlying health conditions."
+  ]
+},
+
+    {
+  "tag": "glaucoma",
+  "patterns": [
+    "glaucoma",
+    "What is glaucoma?",
+    "What are the symptoms of glaucoma?",
+    "How is glaucoma treated?",
+    "How can I prevent glaucoma?"
+  ],
+  "responses": [
+    "Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss. Symptoms include blurred vision, halos around lights, and severe eye pain. Treatment options include eye drops, surgery, or a combination of both. To prevent glaucoma, get regular eye exams, maintain a healthy lifestyle, and manage any underlying health conditions."
+  ]
+},
+
+   {
+  "tag": "macular_degeneration",
+  "patterns": [
+    "What is age-related macular degeneration?",
+    "What are the risk factors for macular degeneration?",
+    "How is macular degeneration diagnosed?",
+    "What are the treatment options for macular degeneration?"
+  ],
+  "responses": [
+    "Age-related macular degeneration is a common eye condition that affects the macula, which is the part of the retina responsible for sharp, central vision. It can cause blurred or distorted vision or blind spots. Risk factors for macular degeneration include age, smoking, family history, and high blood pressure.",
+    "The most common risk factors for age-related macular degeneration include age, smoking, family history of the condition, and high blood pressure. Maintaining a healthy lifestyle and regular eye exams can help reduce your risk.",
+    "Macular degeneration can be diagnosed through a comprehensive eye exam, which may include a visual acuity test, dilated eye exam, and imaging tests.",
+    "While there is no cure for macular degeneration, there are treatment options available to help slow its progression and manage its symptoms. These may include medications, laser therapy, or photo dynamic therapy."
+  ]
+},
+{
+  "tag": "low_blood_sugar",
+  "patterns": [
+    "What are the symptoms of low blood sugar?",
+    "How can I tell if I have low blood sugar?",
+    "What are the signs of low blood sugar?",
+    "Can low blood sugar have symptoms?",
+    "I think I might have low blood sugar",
+    "What are some common signs of low blood sugar?",
+    "What does low blood sugar feel like?",
+    "Shakiness",
+    "Sweating",
+    "Confusion",
+    "Low blood sugar"
+  ],
+  "responses": [
+    "Some common symptoms of low blood sugar include shakiness, sweating, confusion, and dizziness.",
+    "Low blood sugar can cause symptoms such as shakiness, sweating, confusion, and dizziness.",
+    "If you have low blood sugar, you may experience symptoms like shakiness, sweating, confusion, and dizziness.",
+    "Symptoms of low blood sugar can vary, but they may include shakiness, sweating, confusion, and dizziness.",
+    "Low blood sugar, also known as hypoglycemia, can be caused by factors such as skipping meals, excessive physical activity, or certain medications. It's important to manage low blood sugar promptly to prevent complications.",
+    "If you suspect you have low blood sugar, it's important to consume a source of fast-acting carbohydrates, such as fruit juice or glucose tablets, to raise your blood sugar levels. If symptoms persist or worsen, seek medical attention.",
+    "Monitoring your blood sugar levels regularly, especially if you have diabetes or other risk factors, can help you manage low blood sugar effectively.",
+    "If you're experiencing recurrent episodes of low blood sugar, it's advisable to consult with a healthcare professional for further evaluation and personalized management strategies."
+  ]
+},
+{
+  "tag": "high_blood_sugar",
+  "patterns": [
+    "What are the symptoms of high blood sugar?",
+    "How can I tell if I have high blood sugar?",
+    "What are the signs of high blood sugar?",
+    "Can high blood sugar have symptoms?",
+    "I think I might have high blood sugar",
+    "What are some common signs of high blood sugar?",
+    "What does high blood sugar feel like?",
+    "Frequent urination",
+    "Increased thirst",
+    "Fatigue",
+    "High blood sugar"
+  ],
+  "responses": [
+    "Some common symptoms of high blood sugar (hyperglycemia) include frequent urination, increased thirst, fatigue, and blurred vision. Please take professional medical help as soon as possible.",
+    "High blood sugar (hyperglycemia) can cause symptoms such as frequent urination, increased thirst, fatigue, and blurred vision. It's important to seek professional medical help as soon as possible.",
+    "If you have high blood sugar (hyperglycemia), you may experience symptoms like frequent urination, increased thirst, fatigue, and blurred vision. Please consult with a healthcare professional for proper evaluation and guidance.",
+    "Symptoms of high blood sugar (hyperglycemia) can vary, but they may include frequent urination, increased thirst, fatigue, and blurred vision. It's recommended to seek professional medical help as soon as possible.",
+    "High blood sugar (hyperglycemia) can be caused by factors such as poor diet, lack of physical activity, medication side effects, or inadequate diabetes management. It's important to manage high blood sugar to prevent complications. Please take professional medical help as soon as possible.",
+    "If you suspect you have high blood sugar, it's important to monitor your blood sugar levels regularly and follow your healthcare provider's instructions for managing diabetes or other underlying conditions. Please consult with a healthcare professional for proper evaluation and guidance.",
+    "Making lifestyle changes such as eating a balanced diet, exercising regularly, managing stress, and taking medications as prescribed can help control high blood sugar levels. However, it's crucial to seek professional medical help for proper evaluation and guidance.",
+    "If you're experiencing persistently high blood sugar levels or have concerns, it's crucial to consult with your healthcare provider for proper evaluation and guidance. Please take professional medical help as soon as possible."
+  ]
+},
+
+
+
+
+{
+  "tag": "cpr",
+  "patterns": [
+    "How do I perform CPR?",
+    "What is CPR?",
+    "How to give CPR?",
+    "When do you use CPR?",
+    "How do you perform CPR on an adult?",
+    "How do you perform CPR on a child?",
+    "How do you perform CPR on an infant?",
+    "CPR procedure",
+    "What are the steps of CPR?"
+  ],
+  "responses": [
+    "Cardiopulmonary resuscitation (CPR) is a lifesaving procedure that is performed when someone's breathing or heartbeat has stopped. The procedure involves performing chest compressions and rescue breaths to try to restore circulation and breathing. The steps of CPR include: check for responsiveness, call for emergency medical services, perform chest compressions, give rescue breaths, and repeat cycles of compressions and breaths. Remember, CPR is an emergency procedure that should only be performed by trained individuals. If you are not trained in CPR, call emergency services and wait for professional help to arrive."
+  ]
+}
+
+,
+    {
+  "tag": "choking",
+  "patterns": [
+    "What should I do if someone is choking?",
+    "Help, someone is choking!",
+    "How can I assist someone who is choking?",
+    "What are the signs of choking?",
+    "What should I do if I'm choking and no one is around to help?",
+    "What are the different methods to perform the Heimlich maneuver?",
+    "Can infants or pregnant women receive the Heimlich maneuver?",
+    "How can I prevent choking?",
+    "What are some common choking hazards?",
+    "What are some foods that can cause choking?"
+  ],
+  "responses": [
+   "If someone is choking, the first step is to stay calm and assess the situation. If the person can cough or speak, this indicates partial airway obstruction, and you should encourage them to continue coughing to try to dislodge the object. If they can't speak or cough, act quickly and call for emergency help if necessary. Perform the Heimlich maneuver or back blows and abdominal thrusts until the object is dislodged or medical help arrives. It's important to remember that choking can be a life-threatening emergency, so taking prompt action and seeking professional help is crucial." ]
+}
+
+
+
+
+
+  ]
+}
